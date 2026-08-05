@@ -70,7 +70,7 @@ define('MP_PUBLIC_KEY',   '{{MP_PUBLIC_KEY}}');      // linha ~47
 3. Para testes: use as credenciais de **Sandbox**
 4. Para produção: use as credenciais de **Produção**
 
-> Também substitua `{{PREENCHER_URL_DOMINIO}}/webhook.php` pela URL real do seu domínio
+> Também substitua `curso.fuzarigoulart.com.br/webhook.php` pela URL real do seu domínio
 > nos dois campos `notification_url` dentro de `checkout.php`.
 
 ---
@@ -105,7 +105,7 @@ Localize e substitua cada marcador abaixo. Use **Localizar e Substituir** no edi
 
 | Marcador | Localização (seção) | O que inserir |
 |---|---|---|
-| `{{PREENCHER_URL_DOMINIO}}` | `<head>` — canonical + og:url + og:image | URL do seu domínio sem barra final. Ex: `https://pilatesaerofg.com.br` |
+| `curso.fuzarigoulart.com.br` | `<head>` — canonical + og:url + og:image | URL do seu domínio sem barra final. Ex: `https://pilatesaerofg.com.br` |
 | `{{PREENCHER}}` — vagas restantes (urgência) | Seção 0 — barra sticky | Número de vagas disponíveis. Ex: `12` |
 | `{{PREENCHER_DATA_ALVO_ISO8601}}` | Seção 0 — `data-target` countdown | Data/hora no formato ISO 8601. Ex: `2025-12-31T23:59:59-03:00` |
 | `{{PREENCHER}}` — profissionais formados (badge hero) | Seção 1 — Hero | Número de alunos. Ex: `200` |
@@ -139,7 +139,7 @@ Localize e substitua cada marcador abaixo. Use **Localizar e Substituir** no edi
 |---|---|---|
 | `{{MP_ACCESS_TOKEN}}` | linha ~46 | Access Token do painel Mercado Pago |
 | `{{MP_PUBLIC_KEY}}` | linha ~47 | Public Key do painel Mercado Pago |
-| `{{PREENCHER_URL_DOMINIO}}` × 2 | `notification_url` PIX e Cartão | URL do domínio. Ex: `https://pilatesaerofg.com.br` |
+| `curso.fuzarigoulart.com.br` × 2 | `notification_url` PIX e Cartão | URL do domínio. Ex: `https://pilatesaerofg.com.br` |
 | `{{PREENCHER_DOMINIO}}` | comentário PHPMailer | Domínio do e-mail remetente. Ex: `pilatesaerofg.com.br` |
 
 #### `obrigado.php`

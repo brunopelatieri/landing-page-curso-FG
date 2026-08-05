@@ -1,6 +1,6 @@
 <?php
 // Landing Page — Pilates Aéreo Fuzari e Goulart
-// Gerado em: <?php echo date('Y-m-d'); ?>
+// Gerado em: <?php echo date('Y-m-d'); 
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -11,14 +11,14 @@
   <meta name="description" content="Domine o Columpio e transforme sua prática clínica com o método mais completo de Pilates Aéreo terapêutico. Vagas limitadas.">
 
   <!-- Canonical -->
-  <link rel="canonical" href="https://{{PREENCHER_URL_DOMINIO}}/index.php">
+  <link rel="canonical" href="https://curso.fuzarigoulart.com.br/index.php">
 
   <!-- Open Graph -->
   <meta property="og:type"        content="website">
   <meta property="og:title"       content="Pilates Aéreo Fuzari e Goulart — Curso para Fisioterapeutas e Ed. Física">
   <meta property="og:description" content="Domine o Columpio e transforme sua prática clínica com o método mais completo de Pilates Aéreo terapêutico. Vagas limitadas.">
-  <meta property="og:image"       content="https://{{PREENCHER_URL_DOMINIO}}/public/images/fuzari_goular_curso_pilates_aereo_1.webp">
-  <meta property="og:url"         content="https://{{PREENCHER_URL_DOMINIO}}/index.php">
+  <meta property="og:image"       content="https://curso.fuzarigoulart.com.br/public/images/fuzari_goular_curso_pilates_aereo_1.webp">
+  <meta property="og:url"         content="https://curso.fuzarigoulart.com.br/index.php">
   <meta property="og:site_name"   content="Clínica Fuzari Goulart">
 
   <!-- Preload hero image -->
@@ -69,7 +69,7 @@
     "provider": {
       "@type": "Organization",
       "name": "Clínica Fuzari Goulart",
-      "url": "https://{{PREENCHER_URL_DOMINIO}}"
+      "url": "https://curso.fuzarigoulart.com.br"
     },
     "offers": {
       "@type": "Offer",
@@ -260,7 +260,7 @@
 <!-- SEÇÃO 0 — Barra de Urgência (sticky, topo)                   -->
 <!-- ============================================================ -->
 <div class="sticky top-0 z-50 bg-primary text-white text-center py-2 px-4 text-sm font-bold shadow-md">
-  <span class="mr-2">⚡ Apenas <strong>{{PREENCHER}}</strong> vagas restantes — Inscrições encerram em</span>
+  <span class="mr-2">⚡ Apenas <strong>10</strong> vagas restantes — Inscrições encerram em</span>
   <span
     id="countdown"
     class="font-mono font-bold text-white"
@@ -309,7 +309,7 @@
         ✓ Metodologia com apostila exclusiva
       </span>
       <span class="bg-white/15 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 font-medium">
-        ✓ +{{PREENCHER}} profissionais formados
+        ✓ +50 profissionais formados
       </span>
       <span class="bg-white/15 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 font-medium">
         ✓ Clínica referência em Pilates Aéreo
@@ -323,27 +323,27 @@
 <!-- ============================================================ -->
 <section class="bg-surface border-y border-border py-12">
   <div class="max-w-5xl mx-auto px-6">
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+    <div class="grid grid-cols-2 md:grid-cols-2 gap-8 text-center">
 
       <div>
-        <p class="font-display text-4xl md:text-5xl font-bold text-primary">+{{PREENCHER}}</p>
+        <p class="font-display text-4xl md:text-5xl font-bold text-primary">+50</p>
         <p class="text-sm text-text-muted mt-1 font-medium">Profissionais formados</p>
       </div>
 
       <div>
-        <p class="font-display text-4xl md:text-5xl font-bold text-primary">+{{PREENCHER}}</p>
+        <p class="font-display text-4xl md:text-5xl font-bold text-primary">+25</p>
         <p class="text-sm text-text-muted mt-1 font-medium">Anos de experiência</p>
       </div>
 
-      <div>
-        <p class="font-display text-4xl md:text-5xl font-bold text-primary">⭐ {{PREENCHER}}/5.0</p>
+      <!-- <div>
+        <p class="font-display text-4xl md:text-5xl font-bold text-primary">⭐ 5.0/5.0</p>
         <p class="text-sm text-text-muted mt-1 font-medium">Avaliação média</p>
-      </div>
+      </div> -->
 
-      <div>
-        <p class="font-display text-4xl md:text-5xl font-bold text-primary">{{PREENCHER}}</p>
+      <!-- <div>
+        <p class="font-display text-4xl md:text-5xl font-bold text-primary">2</p>
         <p class="text-sm text-text-muted mt-1 font-medium">Clínicas parceiras</p>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -484,7 +484,7 @@
       <!-- Card Intermediário -->
       <div class="bg-bg rounded-2xl overflow-hidden border border-primary/30 shadow-md ring-2 ring-primary/20 relative">
         <div class="absolute top-4 right-4 z-10">
-          <span class="bg-primary text-white text-xs font-bold uppercase tracking-wide px-3 py-1 rounded-full shadow">Mais popular</span>
+          <span class="bg-primary text-white text-xs font-bold uppercase tracking-wide px-3 py-1 rounded-full shadow"></span>
         </div>
         <div class="aspect-[4/3] overflow-hidden">
           <img
@@ -585,15 +585,15 @@
           <span class="text-yellow-500">⭐</span>
         </div>
         <p class="text-text-muted leading-relaxed mb-5 italic">
-          "{{DEPOIMENTO_1}}"
+          "Fiz o curso de pilates aéreo e gostei muito. Acrescentou conhecimento, criatividade, desafio e variedade em minhas aulas, me dando novas possibilidades no desenvolvimento de força, mobilidade e alongamento. Recomendo!"
         </p>
         <div class="flex items-center gap-3">
           <div class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold flex-shrink-0">
-            {{PREENCHER}}
+            <!-- {{PREENCHER}} -->
           </div>
           <div>
-            <p class="font-semibold text-text-main text-sm">{{PREENCHER}}</p>
-            <p class="text-xs text-text-muted">{{PREENCHER}}</p>
+            <p class="font-semibold text-text-main text-sm">Érica Paulucci</p>
+            <!-- <p class="text-xs text-text-muted">{{PREENCHER}}</p> -->
           </div>
         </div>
       </div>
@@ -610,11 +610,11 @@
         </p>
         <div class="flex items-center gap-3">
           <div class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold flex-shrink-0">
-            {{PREENCHER}}
+            <!-- {{PREENCHER}} -->
           </div>
           <div>
             <p class="font-semibold text-text-main text-sm">{{PREENCHER}}</p>
-            <p class="text-xs text-text-muted">{{PREENCHER}}</p>
+            <!-- <p class="text-xs text-text-muted">{{PREENCHER}}</p> -->
           </div>
         </div>
       </div>
@@ -631,11 +631,11 @@
         </p>
         <div class="flex items-center gap-3">
           <div class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold flex-shrink-0">
-            {{PREENCHER}}
+            <!-- {{PREENCHER}} -->
           </div>
           <div>
             <p class="font-semibold text-text-main text-sm">{{PREENCHER}}</p>
-            <p class="text-xs text-text-muted">{{PREENCHER}}</p>
+            <!-- <p class="text-xs text-text-muted">{{PREENCHER}}</p> -->
           </div>
         </div>
       </div>
@@ -662,13 +662,13 @@
     </div>
 
     <!-- Imagens do material -->
-    <div class="grid md:grid-cols-2 gap-6 mb-16">
+    <div class="grid grid-cols-2 gap-4 mb-16">
       <div class="rounded-2xl overflow-hidden shadow-lg aspect-[4/3]">
         <img
           src="public/images/fuzari_goulart_curso_pilates_aereo_9.webp"
           alt="Apostila exclusiva do Método Fuzari Goulart — material impresso do curso de Pilates Aéreo"
           width="600" height="450"
-          class="w-full h-full object-cover"
+          class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
           loading="lazy"
         >
       </div>
@@ -677,7 +677,25 @@
           src="public/images/fuzari_goulart_curso_pilates_aereo_10.webp"
           alt="Material didático completo do curso Pilates Aéreo Fuzari Goulart"
           width="600" height="450"
-          class="w-full h-full object-cover"
+          class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+          loading="lazy"
+        >
+      </div>
+      <div class="rounded-2xl overflow-hidden shadow-lg aspect-[4/3]">
+        <img
+          src="public/images/fuzari_goulart_curso_pilates_aereo_13.webp"
+          alt="Conclusão de curso — aluna certificada Pilates Aéreo Fuzari Goulart"
+          width="600" height="450"
+          class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+          loading="lazy"
+        >
+      </div>
+      <div class="rounded-2xl overflow-hidden shadow-lg aspect-[4/3]">
+        <img
+          src="public/images/fuzari_goulart_curso_pilates_aereo_15.webp"
+          alt="Entrega de certificado — turma concluinte do curso de Pilates Aéreo Fuzari Goulart"
+          width="600" height="450"
+          class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
           loading="lazy"
         >
       </div>
@@ -689,37 +707,37 @@
         <thead>
           <tr class="bg-white/10 border-b border-white/20">
             <th class="text-left py-3 px-5 font-semibold">O que você recebe</th>
-            <th class="text-right py-3 px-5 font-semibold">Valor</th>
+            <th class="text-right py-3 px-5 font-semibold"></th>
           </tr>
         </thead>
         <tbody>
           <tr class="border-b border-white/10 hover:bg-white/5 transition-colors">
             <td class="py-3 px-5">📚 Apostila Impressa exclusiva</td>
-            <td class="py-3 px-5 text-right font-semibold text-white/80">{{PREENCHER}}</td>
+            <td class="py-3 px-5 text-right font-semibold text-white/80"></td>
           </tr>
           <tr class="border-b border-white/10 hover:bg-white/5 transition-colors">
             <td class="py-3 px-5">🎥 Curso completo (vídeos)</td>
-            <td class="py-3 px-5 text-right font-semibold text-white/80">{{PREENCHER}}</td>
+            <td class="py-3 px-5 text-right font-semibold text-white/80"></td>
           </tr>
           <tr class="border-b border-white/10 hover:bg-white/5 transition-colors">
             <td class="py-3 px-5">💬 Suporte 3 meses WhatsApp</td>
-            <td class="py-3 px-5 text-right font-semibold text-white/80">{{PREENCHER}}</td>
+            <td class="py-3 px-5 text-right font-semibold text-white/80"></td>
           </tr>
           <tr class="border-b border-white/10 hover:bg-white/5 transition-colors">
             <td class="py-3 px-5">📜 Certificado de conclusão</td>
-            <td class="py-3 px-5 text-right font-semibold text-white/80">{{PREENCHER}}</td>
+            <td class="py-3 px-5 text-right font-semibold text-white/80"></td>
           </tr>
           <tr class="border-b border-white/10 hover:bg-white/5 transition-colors">
-            <td class="py-3 px-5">🎁 Bônus 1: {{PREENCHER}}</td>
-            <td class="py-3 px-5 text-right font-semibold text-white/80">{{PREENCHER}}</td>
+            <td class="py-3 px-5">🎁 Bônus 1: ⁠Maravilhoso coffee break preparado com muito carinho pela Clínica Fuzari e Goulart</td>
+            <td class="py-3 px-5 text-right font-semibold text-white/80"></td>
           </tr>
-          <tr class="border-b border-white/10 hover:bg-white/5 transition-colors">
+          <!-- <tr class="border-b border-white/10 hover:bg-white/5 transition-colors">
             <td class="py-3 px-5">🎁 Bônus 2: {{PREENCHER}}</td>
             <td class="py-3 px-5 text-right font-semibold text-white/80">{{PREENCHER}}</td>
-          </tr>
+          </tr> -->
           <tr class="border-b border-white/10 bg-white/5">
             <td class="py-3 px-5 font-bold text-white/70">Valor total</td>
-            <td class="py-3 px-5 text-right font-bold text-white/70 price-strike">R$ {{PREENCHER}}</td>
+            <td class="py-3 px-5 text-right font-bold text-white/70 price-strike">R$ 1500,00</td>
           </tr>
           <tr class="bg-white/15">
             <td class="py-4 px-5 font-bold text-lg text-white">⚡ Você paga hoje</td>
@@ -772,36 +790,122 @@
 
         <!-- Sócia 1 -->
         <div class="border-l-4 border-primary pl-6">
-          <h3 class="font-display text-xl font-bold text-text-main mb-1">{{PREENCHER — Nome Sócia 1}}</h3>
-          <p class="text-sm text-primary font-semibold mb-3">{{PREENCHER — Formação / Especialização}}</p>
-          <p class="text-text-muted leading-relaxed text-sm">
-            {{PREENCHER — Apresentação profissional: anos de experiência, especialização em Pilates Aéreo,
-            propósito clínico e impacto no método}}
-          </p>
-          <p class="mt-2 text-xs text-text-muted font-medium">
-            Registro profissional: {{INSERIR SE APLICÁVEL — CREFITO / CREF}}
-          </p>
+          <h3 class="font-display text-xl font-bold text-text-main mb-0.5">Lara Goulart</h3>
+          <p class="text-xs text-text-muted font-medium mb-3">CREFITO 7987-7</p>
+          <p class="text-xs font-bold uppercase tracking-widest text-primary mb-3">Formação &amp; Trajetória</p>
+          <ul class="space-y-2 mb-4">
+            <li class="flex items-start gap-2 text-sm text-text-muted">
+              <span class="text-primary mt-0.5 flex-shrink-0">🎓</span>
+              <span><strong class="text-text-main">Fisioterapia</strong> — Universidade São Francisco (USF), Bragança Paulista, 2005</span>
+            </li>
+            <li class="flex items-start gap-2 text-sm text-text-muted">
+              <span class="text-primary mt-0.5 flex-shrink-0">🎓</span>
+              <span><strong class="text-text-main">Pós-Graduação em Neurologia Infantil</strong> — UNICAMP, 2007</span>
+            </li>
+            <li class="flex items-start gap-2 text-sm text-text-muted">
+              <span class="text-accent mt-0.5 flex-shrink-0">✦</span>
+              <span><strong class="text-text-main">Pilates</strong> — cursos e aprofundamentos desde 2009</span>
+            </li>
+            <li class="flex items-start gap-2 text-sm text-text-muted">
+              <span class="text-accent mt-0.5 flex-shrink-0">✦</span>
+              <span><strong class="text-text-main">Pós-Graduação em Acupuntura</strong> — CETN, 2016</span>
+            </li>
+            <li class="flex items-start gap-2 text-sm text-text-muted">
+              <span class="text-accent mt-0.5 flex-shrink-0">✦</span>
+              <span><strong class="text-text-main">Aprofundamento em Síndromes Energéticas — Acupuntura</strong> — Instituto Camilo, 2019</span>
+            </li>
+            <li class="flex items-start gap-2 text-sm text-text-muted">
+              <span class="text-accent mt-0.5 flex-shrink-0">✦</span>
+              <span><strong class="text-text-main">Aprofundamento em Hipnose Clínica</strong> — Instituto Lucas Naves, 2018</span>
+            </li>
+            <li class="flex items-start gap-2 text-sm text-text-muted">
+              <span class="text-accent mt-0.5 flex-shrink-0">✦</span>
+              <span><strong class="text-text-main">Formação em Ozonioterapia</strong> — CEFAC, 2019</span>
+            </li>
+            <li class="flex items-start gap-2 text-sm text-text-muted">
+              <span class="text-accent mt-0.5 flex-shrink-0">✦</span>
+              <span><strong class="text-text-main">Aprofundamento em Ozonioterapia</strong> — Ozonebras, 2021</span>
+            </li>
+            <li class="flex items-start gap-2 text-sm text-text-muted">
+              <span class="text-accent mt-0.5 flex-shrink-0">✦</span>
+              <span><strong class="text-text-main">Pós-Graduação em Ozonioterapia</strong> — Unyleya, 2022</span>
+            </li>
+            <li class="flex items-start gap-2 text-sm text-text-muted">
+              <span class="text-accent mt-0.5 flex-shrink-0">✦</span>
+              <span><strong class="text-text-main">Terapias Injetáveis, PRP e Ozônio na Dor Crônica</strong> — Dr. Diogo Bonifácio, 2023</span>
+            </li>
+          </ul>
+
+          <!-- Logo + site Lara Goulart -->
+          <div class="mt-4 pt-4 border-t border-border flex items-center justify-between gap-4 flex-wrap">
+            <a
+              href="https://laragoulart.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center gap-3 group"
+              title="Visitar site da Lara Goulart"
+            >
+              <img
+                src="public/images/lara_goulart_ozonioterapia_acupuntura_fisio_.webp"
+                alt="Logo Lara Goulart — Fisioterapia, Acupuntura e Ozonioterapia"
+                width="48" height="48"
+                class="w-12 h-12 rounded-full object-cover border border-border shadow-sm group-hover:shadow-md transition-shadow"
+                loading="lazy"
+              >
+              <div>
+                <p class="text-xs font-semibold text-text-main group-hover:text-primary transition-colors leading-tight">laragoulart.com.br</p>
+                <p class="text-xs text-text-muted leading-tight">Ver site profissional →</p>
+              </div>
+            </a>
+          </div>
         </div>
 
         <!-- Sócia 2 -->
         <div class="border-l-4 border-accent pl-6">
-          <h3 class="font-display text-xl font-bold text-text-main mb-1">{{PREENCHER — Nome Sócia 2}}</h3>
-          <p class="text-sm text-accent font-semibold mb-3">{{PREENCHER — Formação / Especialização}}</p>
-          <p class="text-text-muted leading-relaxed text-sm">
-            {{PREENCHER — Apresentação profissional: anos de experiência, especialização em Pilates Aéreo,
-            propósito clínico e impacto no método}}
-          </p>
-          <p class="mt-2 text-xs text-text-muted font-medium">
-            Registro profissional: {{INSERIR SE APLICÁVEL — CREFITO / CREF}}
-          </p>
+          <h3 class="font-display text-xl font-bold text-text-main mb-0.5">Rafaela Fuzari</h3>
+          <p class="text-xs text-text-muted font-medium mb-3">CREFITO 109210-G/SP</p>
+          <p class="text-xs font-bold uppercase tracking-widest text-primary mb-3">Formação &amp; Trajetória</p>
+          <ul class="space-y-2 mb-4">
+            <li class="flex items-start gap-2 text-sm text-text-muted">
+              <span class="text-primary mt-0.5 flex-shrink-0">🎓</span>
+              <span><strong class="text-text-main">Educação Física Licenciatura e Bacharelado</strong> — Faculdade ASMEC</span>
+            </li>
+            <li class="flex items-start gap-2 text-sm text-text-muted">
+              <span class="text-primary mt-0.5 flex-shrink-0">🎓</span>
+              <span><strong class="text-text-main">Pós-Graduação em Acupuntura</strong> — CETN Campinas</span>
+            </li>
+          </ul>
+
+          <!-- Logo + site Rafaela Fuzari — Humanitá Acupuntura -->
+          <div class="mt-4 pt-4 border-t border-border flex items-center justify-between gap-4 flex-wrap">
+            <a
+              href="https://humanitaacupuntura.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center gap-3 group"
+              title="Visitar site Humanitá Acupuntura — Rafaela Fuzari"
+            >
+              <img
+                src="public/images/logo_humanita_acupuntura.webp"
+                alt="Logo Humanitá Acupuntura — Cuidado humanizado para gestantes e bem-estar feminino"
+                width="48" height="48"
+                class="w-12 h-12 rounded-full object-cover border border-border shadow-sm group-hover:shadow-md transition-shadow"
+                loading="lazy"
+              >
+              <div>
+                <p class="text-xs font-semibold text-text-main group-hover:text-accent transition-colors leading-tight">humanitaacupuntura.com.br</p>
+                <p class="text-xs text-text-muted leading-tight">Ver site profissional →</p>
+              </div>
+            </a>
+          </div>
         </div>
 
-        <!-- Missão -->
+        <!-- Missão 
         <div class="bg-surface border border-border rounded-xl p-5">
           <p class="text-text-muted italic text-sm leading-relaxed">
             "{{PREENCHER — Citação ou declaração de missão das fundadoras sobre o propósito do curso e o impacto na formação profissional}}"
           </p>
-        </div>
+        </div>-->
 
       </div>
     </div>
@@ -819,21 +923,21 @@
 
       <!-- Header da oferta -->
       <div class="bg-primary text-white text-center py-4 px-6">
-        <p class="text-sm font-bold uppercase tracking-widest">⚡ OFERTA ESPECIAL — até {{PREENCHER}}</p>
+        <p class="text-sm font-bold uppercase tracking-widest">⚡ OFERTA ESPECIAL</p>
       </div>
 
       <div class="p-8 md:p-10 text-center">
 
         <!-- Preço riscado -->
         <p class="text-text-muted text-lg mb-1">
-          De: <span class="line-through font-semibold">R$ {{PREENCHER}}</span>
+          De: <span class="line-through font-semibold">R$ 1500,00</span>
         </p>
 
         <!-- Preço PIX -->
         <div class="my-4">
           <p class="text-sm font-semibold text-accent uppercase tracking-wide mb-1">PIX — melhor preço</p>
-          <p class="font-display text-6xl md:text-7xl font-bold text-primary leading-none">R$ 949</p>
-          <p class="text-text-muted text-sm mt-1">,00 à vista no PIX</p>
+          <p class="font-display text-6xl md:text-7xl font-bold text-primary leading-none">R$ 949,00</p>
+          <p class="text-text-muted text-sm mt-1">à vista no PIX</p>
         </div>
 
         <div class="flex items-center gap-3 my-4">
@@ -881,7 +985,7 @@
 
         <!-- Micro-copy de urgência -->
         <p class="mt-4 text-xs text-text-muted italic text-center">
-          👁️ <strong>{{PREENCHER}}</strong> pessoas estão vendo esta página agora · <strong>{{PREENCHER}}</strong> vagas restantes
+          👁️ <strong><?= rand(7,9) ?></strong> pessoas estão vendo esta página agora · <strong><?= rand(1,10) ?></strong> vagas restantes
         </p>
 
       </div>
@@ -917,8 +1021,7 @@
         </button>
         <div class="faq-answer px-6 pb-0">
           <div class="pb-5 text-text-muted leading-relaxed text-sm">
-            <!-- CLIENTE: responda aqui — ex.: "Não é necessário. O curso começa pelos fundamentos..." -->
-            {{RESPOSTA_FAQ_1}}
+            Precisa ter experiência prévia em pilates, mas não é necessário ter um columpio próprio.
           </div>
         </div>
       </div>
@@ -927,15 +1030,13 @@
       <div class="faq-item bg-surface border border-border rounded-xl overflow-hidden">
         <button
           class="faq-question w-full flex items-center justify-between gap-4 px-6 py-4 text-left font-semibold text-text-main hover:bg-border/40 transition-colors"
-          aria-expanded="false"
-        >
+          aria-expanded="false">
           <span>Consigo aplicar sem ter um Columpio próprio?</span>
           <span class="faq-icon text-primary text-2xl leading-none flex-shrink-0">+</span>
         </button>
         <div class="faq-answer px-6 pb-0">
           <div class="pb-5 text-text-muted leading-relaxed text-sm">
-            <!-- CLIENTE: responda aqui — ex.: "Durante o treinamento presencial você usará o Columpio da clínica..." -->
-            {{RESPOSTA_FAQ_2}}
+            Precisa ter um Columpio para a aplicação dos exercícios, porém pode adaptar a colocação do Columpio no Cadillac.
           </div>
         </div>
       </div>
@@ -951,8 +1052,7 @@
         </button>
         <div class="faq-answer px-6 pb-0">
           <div class="pb-5 text-text-muted leading-relaxed text-sm">
-            <!-- CLIENTE: detalhe o formato (presencial, online, híbrido), dias e local -->
-            {{RESPOSTA_FAQ_3}}
+            Curso presencial com direito a estágio de observação e prática na Clínica Fuzari e Goulart com alunos reais.
           </div>
         </div>
       </div>
@@ -961,15 +1061,13 @@
       <div class="faq-item bg-surface border border-border rounded-xl overflow-hidden">
         <button
           class="faq-question w-full flex items-center justify-between gap-4 px-6 py-4 text-left font-semibold text-text-main hover:bg-border/40 transition-colors"
-          aria-expanded="false"
-        >
-          <span>Recebo certificado reconhecido pelo CREFITO/CREF?</span>
+          aria-expanded="false">
+          <span>E se não conseguir aplicar na minha clínica?</span>
           <span class="faq-icon text-primary text-2xl leading-none flex-shrink-0">+</span>
         </button>
         <div class="faq-answer px-6 pb-0">
           <div class="pb-5 text-text-muted leading-relaxed text-sm">
-            <!-- CLIENTE: esclareça o tipo de certificado e validade para pontuação profissional -->
-            {{RESPOSTA_FAQ_4}}
+            Aluno que não sentir segurança a aplicar as aulas no Columpio, poderá entrar em contato para agendarmos estágios de observação e prática com alunos reais, até sentir-se apto a realizar o manuseio do Columpio.
           </div>
         </div>
       </div>
@@ -980,30 +1078,13 @@
           class="faq-question w-full flex items-center justify-between gap-4 px-6 py-4 text-left font-semibold text-text-main hover:bg-border/40 transition-colors"
           aria-expanded="false"
         >
-          <span>E se não conseguir aplicar na minha clínica?</span>
-          <span class="faq-icon text-primary text-2xl leading-none flex-shrink-0">+</span>
-        </button>
-        <div class="faq-answer px-6 pb-0">
-          <div class="pb-5 text-text-muted leading-relaxed text-sm">
-            <!-- CLIENTE: mencione suporte, garantia de 7 dias, e acessibilidade do método -->
-            {{RESPOSTA_FAQ_5}}
-          </div>
-        </div>
-      </div>
-
-      <!-- FAQ 6 -->
-      <div class="faq-item bg-surface border border-border rounded-xl overflow-hidden">
-        <button
-          class="faq-question w-full flex items-center justify-between gap-4 px-6 py-4 text-left font-semibold text-text-main hover:bg-border/40 transition-colors"
-          aria-expanded="false"
-        >
           <span>Por que investir agora e não esperar a próxima turma?</span>
           <span class="faq-icon text-primary text-2xl leading-none flex-shrink-0">+</span>
         </button>
         <div class="faq-answer px-6 pb-0">
           <div class="pb-5 text-text-muted leading-relaxed text-sm">
-            <!-- CLIENTE: argumente com preço de lançamento, vagas limitadas, mercado em expansão -->
-            {{RESPOSTA_FAQ_6}}
+            O quanto antes se investe em conhecimento mais você se destaca na área e se torna um diferencial dos outros Studios de Pilates.
+            <br>Algo diferente e seguro para o aluno, assim tornando as aulas de pilates mais desafiadoras, saindo da rotina.
           </div>
         </div>
       </div>
@@ -1025,7 +1106,7 @@
     </h2>
     <p class="text-white/80 text-lg leading-relaxed mb-8 max-w-xl mx-auto">
       Aproveite o preço especial de lançamento e comece com o método que já formou
-      +{{PREENCHER}} profissionais em todo o Brasil.
+      +50 profissionais em todo o Brasil.
     </p>
 
     <a href="#checkout" class="inline-block bg-white text-primary font-display font-bold text-xl px-12 py-5 rounded-xl shadow-2xl hover:bg-white/95 hover:-translate-y-1 transition-all">
@@ -1227,22 +1308,85 @@
 <!-- ============================================================ -->
 <!-- RODAPÉ                                                        -->
 <!-- ============================================================ -->
-<footer class="bg-[#1A1210] text-white/70 py-12">
+<footer class="bg-white border-t border-border py-12" style="color: rgb(26 18 16 / 1);">
   <div class="max-w-5xl mx-auto px-6">
 
     <div class="flex flex-col md:flex-row items-center justify-between gap-6 mb-8">
-      <div>
-        <p class="font-display text-xl font-bold text-white">Clínica Fuzari Goulart</p>
-        <p class="text-sm text-white/50 mt-1">Referência em Pilates Aéreo Terapêutico</p>
-      </div>
-      <div class="flex gap-6 text-sm">
-        <a href="{{PREENCHER_URL_POLITICA_PRIVACIDADE}}" class="hover:text-white transition-colors">Política de Privacidade</a>
-        <a href="{{PREENCHER_URL_TERMOS_DE_USO}}" class="hover:text-white transition-colors">Termos de Uso</a>
+      <a
+        href="https://fuzarigoulart.com.br/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="flex items-center gap-4 group"
+        title="Visitar site da Clínica Fuzari Goulart"
+      >
+        <img
+          src="public/images/fuzari_goulart_site_logo_maior.webp"
+          alt="Logo Clínica Fuzari Goulart — Pilates, Fisioterapia, Acupuntura e Ozonioterapia em Campinas"
+          width="160" height="60"
+          class="h-12 w-auto object-contain opacity-90 group-hover:opacity-100 transition-opacity"
+          loading="lazy"
+        >
+        <div>
+          <p class="font-display text-xl font-bold group-hover:text-primary transition-colors leading-tight" style="color: rgb(26 18 16 / 1);">Clínica Fuzari Goulart</p>
+          <p class="text-xs mt-0.5 group-hover:text-primary transition-colors" style="color: rgb(26 18 16 / 0.5);">fuzarigoulart.com.br →</p>
+        </div>
+      </a>
+      <div class="flex gap-6 text-sm" style="color: rgb(26 18 16 / 0.6);">
+        <a href="{{PREENCHER_URL_POLITICA_PRIVACIDADE}}" class="hover:text-primary transition-colors">Política de Privacidade</a>
+        <a href="{{PREENCHER_URL_TERMOS_DE_USO}}" class="hover:text-primary transition-colors">Termos de Uso</a>
       </div>
     </div>
 
-    <div class="border-t border-white/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-2 text-xs text-white/40">
-      <p>CNPJ: {{PREENCHER}}</p>
+    <!-- Redes Sociais -->
+    <div class="border-t border-border pt-8 mb-8">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div>
+          <p class="text-xs font-bold uppercase tracking-widest text-primary mb-1">Acompanhe Nossas Novidades</p>
+          <p class="font-display text-lg font-bold" style="color: rgb(26 18 16 / 1);">Conecte-se Conosco</p>
+        </div>
+        <div class="flex items-center gap-4">
+
+          <!-- Instagram -->
+          <a
+            href="https://www.instagram.com/fuzariegoulart/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex items-center gap-2.5 px-4 py-2.5 rounded-xl border border-border hover:border-primary hover:bg-primary/5 transition-all group"
+            title="Instagram @fuzariegoulart"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary flex-shrink-0" aria-hidden="true">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+            </svg>
+            <div>
+              <p class="text-xs font-bold group-hover:text-primary transition-colors leading-tight" style="color: rgb(26 18 16 / 1);">@fuzariegoulart</p>
+              <p class="text-xs leading-tight" style="color: rgb(26 18 16 / 0.45);">Instagram</p>
+            </div>
+          </a>
+
+          <!-- Facebook -->
+          <a
+            href="https://www.facebook.com/studiofuzariegoulart/?locale=pt_BR"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex items-center gap-2.5 px-4 py-2.5 rounded-xl border border-border hover:border-primary hover:bg-primary/5 transition-all group"
+            title="Facebook @studiofuzariegoulart"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary flex-shrink-0" aria-hidden="true">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+            </svg>
+            <div>
+              <p class="text-xs font-bold group-hover:text-primary transition-colors leading-tight" style="color: rgb(26 18 16 / 1);">@studiofuzariegoulart</p>
+              <p class="text-xs leading-tight" style="color: rgb(26 18 16 / 0.45);">Facebook</p>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="border-t border-border pt-6 flex flex-col md:flex-row items-center justify-between gap-2 text-xs" style="color: rgb(26 18 16 / 0.4);">
+      <p>CNPJ: 16.565.456/0001-39</p>
       <p>© 2025 Clínica Fuzari Goulart. Todos os direitos reservados.</p>
     </div>
 
@@ -1312,7 +1456,7 @@
     <!-- Body -->
     <div class="p-6">
       <p class="text-text-muted text-sm leading-relaxed mb-5">
-        Cadastre seu e-mail abaixo e receba um <strong class="text-text-main">cupom especial</strong> com condição ainda melhor do que a da página. Válido apenas por <strong class="text-text-main">{{PREENCHER}} horas</strong>.
+        Cadastre seu e-mail abaixo e receba um <strong class="text-text-main">cupom especial</strong> com condição ainda melhor do que a da página. Válido apenas por <strong class="text-text-main"><?= rand(1,24) ?> horas</strong>.
       </p>
       <form id="exit-intent-form" class="space-y-3" novalidate>
         <input

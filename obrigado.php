@@ -163,7 +163,7 @@ $paymentId = isset($_GET['pid']) ? htmlspecialchars($_GET['pid'], ENT_QUOTES, 'U
             <div>
               <p class="font-semibold text-text-main">Verifique seu e-mail</p>
               <p class="text-text-muted text-sm mt-0.5">
-                Você receberá os dados de acesso em até <strong>{{PREENCHER}}</strong> minutos.
+                Você receberá os dados de acesso em até <strong>60</strong> minutos.
                 Caso não encontre, verifique a pasta de spam ou promoções.
               </p>
             </div>
@@ -204,7 +204,7 @@ $paymentId = isset($_GET['pid']) ? htmlspecialchars($_GET['pid'], ENT_QUOTES, 'U
       <!-- Botão WhatsApp -->
       <div class="fade-up fade-up-delay-3">
         <a
-          href="{{PREENCHER_LINK_GRUPO_WHATSAPP}}"
+          href="https://wa.me/5519992758914"
           target="_blank"
           rel="noopener noreferrer"
           class="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white font-bold text-base px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all hover:-translate-y-1"
@@ -225,7 +225,7 @@ $paymentId = isset($_GET['pid']) ? htmlspecialchars($_GET['pid'], ENT_QUOTES, 'U
 
   <!-- Rodapé mínimo -->
   <footer class="bg-[#1A1210] text-white/50 text-center py-6 text-xs">
-    <p>© 2025 Clínica Fuzari Goulart · CNPJ: {{PREENCHER}}</p>
+    <p>© 2025 Clínica Fuzari Goulart · CNPJ: 16.565.456/0001-39</p>
   </footer>
 
 </body>

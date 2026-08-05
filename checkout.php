@@ -237,7 +237,7 @@ try {
             'description'        => 'Curso Pilates Aéreo Fuzari e Goulart',
             'payment_method_id'  => 'pix',
             'payer'              => $payerData,
-            'notification_url'   => 'https://{{PREENCHER_URL_DOMINIO}}/webhook.php',
+            'notification_url'   => 'https://curso.fuzarigoulart.com.br/webhook.php',
             // INTEGRAÇÃO: ajustar URL do webhook antes de ir a produção
         ];
 
@@ -290,7 +290,7 @@ try {
             'token'              => $cardToken,
             'installments'       => $parcelas,
             'payer'              => $payerData,
-            'notification_url'   => 'https://{{PREENCHER_URL_DOMINIO}}/webhook.php',
+            'notification_url'   => 'https://curso.fuzarigoulart.com.br/webhook.php',
         ];
 
         $payment = $client->create($request, [
